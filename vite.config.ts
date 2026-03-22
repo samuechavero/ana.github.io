@@ -12,10 +12,8 @@ if (Number.isNaN(port) || port <= 0) {
   throw new Error(`Invalid PORT value: "${rawPort}"`);
 }
 
-const basePath = process.env.BASE_PATH || "/ana.github.io/";
-
 export default defineConfig({
-  base: basePath,
+  base: '/ana.github.io/',
   plugins: [
     react(),
     tailwindcss(),

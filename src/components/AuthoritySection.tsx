@@ -16,7 +16,7 @@ export default function AuthoritySection() {
               }}
             >
               <img 
-                src={`${import.meta.env.BASE_URL}ana-profile.jpg`} 
+                src="./ana-profile.jpg" 
                 alt="Ana Cordonez - Agente de Seguros Licenciada" 
                 style={{ 
                   width: '100%', 
