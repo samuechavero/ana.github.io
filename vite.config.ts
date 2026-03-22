@@ -13,7 +13,7 @@ if (Number.isNaN(port) || port <= 0) {
 }
 
 export default defineConfig({
-  base: '/ana.github.io/',
+  base: './',
   plugins: [
     react(),
     tailwindcss(),

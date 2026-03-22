@@ -20,7 +20,7 @@ export default function VideoSection({ shouldAutoPlay = false }: VideoSectionPro
         <div className="relative w-full rounded-2xl overflow-hidden shadow-2xl bg-black" style={{ maxWidth: "800px" }}>
           <video
             ref={videoRef}
-            src="./IUL.MP4"
+            src="IUL.MP4"
             className="w-full h-auto"
             style={{ width: "100%", maxWidth: "800px", display: "block", margin: "0 auto" }}
             controls
